@@ -1,0 +1,10 @@
+{
+  "name": "integrate-tests",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node lib/index.js",
+    "compile": "tsc"
+  },
+  "dependencies": {
+  }
+}

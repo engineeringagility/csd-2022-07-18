@@ -1,0 +1,13 @@
+{
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "jsx": "react",
+    "outDir": "lib",
+    "rootDir": "src",
+    "esModuleInterop": true,
+    "types": ["jest"]
+  },
+  "exclude": ["lib", "dist"]
+}

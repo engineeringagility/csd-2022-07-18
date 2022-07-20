@@ -1,0 +1,12 @@
+{
+  "name": "csd-2022-07-18",
+  "version": "1.0.0",
+  "description": "Sample code course",
+  "scripts": {
+    "start-client": "pnpm start --filter client",
+    "start-service": "pnpm start --filter service"
+  },
+  "keywords": [],
+  "author": "Erick Fleming",
+  "license": "ISC"
+}
