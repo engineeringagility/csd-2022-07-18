@@ -5,12 +5,14 @@
   "scripts": {
     "start-client": "pnpm start --filter client",
     "start-service": "pnpm --filter service start",
-    "start-compile": "tsc --build --watch"
+    "start-compile": "tsc --build --watch",
+    "test-service": "pnpm --filter service test"
   },
   "keywords": [],
   "author": "Erick Fleming",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^4.7.4"
+    "typescript": "^4.7.4",
+    "jest": "^28.1.3"
   }
 }
