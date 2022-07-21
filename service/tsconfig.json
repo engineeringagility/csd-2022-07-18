@@ -3,7 +3,8 @@
   "compilerOptions": {
     "rootDir": "src",
     "outDir": "lib",
-    "types": ["jest"]
+    "types": ["jest"],
+    "module": "CommonJS"
   },
   "include": ["src"],
   "exclude": ["lib"]

@@ -4,7 +4,7 @@
   "description": "Sample code course",
   "scripts": {
     "start-client": "pnpm start --filter client",
-    "start-service": "pnpm start --filter service",
+    "start-service": "pnpm --filter service start",
     "start-compile": "tsc --build --watch"
   },
   "keywords": [],
