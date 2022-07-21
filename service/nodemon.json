@@ -2,5 +2,5 @@
   "watch": ["src"],
   "ignore": [],
   "ext": "ts,json",
-  "exec": "node -r esbuild-register ./lib/index.js"
+  "exec": "node -r esbuild-register ./src/index.ts"
 }

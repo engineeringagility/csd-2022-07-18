@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Sample code course",
   "scripts": {
-    "start-client": "pnpm start --filter client",
+    "start-client": "pnpm --filter client start",
     "start-service": "pnpm --filter service start",
     "start-compile": "tsc --build --watch",
     "test-service": "pnpm --filter service test"
