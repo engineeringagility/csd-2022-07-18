@@ -3,7 +3,8 @@
   "compilerOptions": {
     "rootDir": "src",
     "outDir": "lib",
-    "types": ["node", "jest"]
+    "types": ["jest"]
   },
+  "include": ["src"],
   "exclude": ["lib"]
 }

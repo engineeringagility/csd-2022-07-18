@@ -1,6 +1,16 @@
 {
   "name": "service",
   "version": "1.0.0",
+  "scripts": {
+    "start": "node lib/index.js"
+  },
   "dependencies": {
+    "@graphql-yoga/node": "2.13.4",
+    "graphql": "16.5.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4",
+    "@types/node": "18.0.6",
+    "@types/jest": "28.1.6"
   }
 }

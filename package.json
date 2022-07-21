@@ -4,9 +4,13 @@
   "description": "Sample code course",
   "scripts": {
     "start-client": "pnpm start --filter client",
-    "start-service": "pnpm start --filter service"
+    "start-service": "pnpm start --filter service",
+    "start-compile": "tsc --build --watch"
   },
   "keywords": [],
   "author": "Erick Fleming",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
 }

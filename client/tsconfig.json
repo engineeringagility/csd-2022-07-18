@@ -9,5 +9,6 @@
     "esModuleInterop": true,
     "types": ["jest"]
   },
+  "include": ["src"],
   "exclude": ["lib", "dist"]
 }
